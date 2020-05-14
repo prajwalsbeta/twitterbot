@@ -39,6 +39,6 @@ class TwitterBot:
                 except Exception as ex:
                     time.sleep(60)
 
-p = TwitterBot('prajstwitterbot@mailcupp.com','secure.password')
+p = TwitterBot('id','password') # Enter your id and password here
 p.login()
-p.like_tweet("hacking")
+p.like_tweet("#hashtag") # Enter the hashtag to like
